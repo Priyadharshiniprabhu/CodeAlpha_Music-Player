@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+  }
+   
+  .music-player {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px burlywood;
+  }
+  
+  .player-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+  }
+  
+  .controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  #current-music {
+    margin-top: 10px;
+    font-size: 18px;
+    color: brown;
+  }
+  
